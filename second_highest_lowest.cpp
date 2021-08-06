@@ -1,12 +1,4 @@
 #include <iostream>
-// Copy Array function..
-void Copy_Array(int a[], int b[], int size_a)
-{
-    for(int i = 0; i <= size_a - 1; i++)
-    {
-        a[i] = b[i];
-    }
-}
 // Delete element function..
 void Delete_element(int a[], int size_a, int x)
 {
